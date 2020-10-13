@@ -8,6 +8,6 @@ You can always check the content of the live extension using the [Chrome extensi
 
 ## Security Details
 
-The only domain that can communicate with the extension is `https://app.recap.io/*` as defined in the `externally_connectable` property of `manifest.json`. This means no other apps or sites can use the extension to bypass browser security.
+The only URL that can communicate with the extension is `https://app.recap.io/*` as defined in the `externally_connectable` property of `manifest.json`. This means no other apps or sites can use the extension to bypass browser security. [More about `externally_connectable`](https://developer.chrome.com/extensions/manifest/externally_connectable).
 
-The extension can only fetch data from URLs defined in the `permissions` property of `manifest.json`. This limits which URLs the extension can connect to, which means that Recap can't query any other sites other than those defined. This whitelist is also checked in the `fetch` method of `background.js`.
+The extension can only fetch data from URLs defined in the `permissions` property of `manifest.json`. This limits which URLs the extension can connect to, which means that Recap can't query any other sites other than those defined. This whitelist is also checked in the `fetch` method of `background.js`. [More about `permissions`](https://developer.chrome.com/extensions/declare_permissions).
