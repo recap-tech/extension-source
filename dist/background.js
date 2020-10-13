@@ -1,5 +1,5 @@
 "use strict";
-const fetchOrigins = ['https://api-pub.bitfinex.com', 'https://api.binance.com', 'https://api.binance.je', 'https://api.binance.us', 'https://api.bitfinex.com', 'https://api.bittrex.com', 'https://api.coinbase.com', 'https://api.exchange.bitpanda.com', 'https://api.kraken.com', 'https://api.pro.coinbase.com', 'https://api.uphold.com', 'https://poloniex.com', 'https://support.kraken.com', 'https://wallet-api.celsius.network', 'https://webapi.coinfloor.co.uk', 'https://www.bitstamp.net', 'https://www.cryptofacilities.com'];
+const fetchOrigins = ['https://api-pub.bitfinex.com', 'https://api.binance.com', 'https://api.binance.je', 'https://api.binance.us', 'https://api.bitfinex.com', 'https://api.bittrex.com', 'https://api.coinbase.com', 'https://api.exchange.bitpanda.com', 'https://api.kraken.com', 'https://api.pro.coinbase.com', 'https://api.uphold.com', 'https://poloniex.com', 'https://support.kraken.com', 'https://wallet-api.celsius.network', 'https://webapi.coinfloor.co.uk', 'https://www.bitstamp.net', 'https://www.cryptofacilities.com', 'https://api.luno.com', 'https://futures.kraken.com'];
 function arrayBufferToBase64(arrayBuffer) {
     return btoa(new Uint8Array(arrayBuffer).reduce((data, byte) => {
         return data + String.fromCharCode(byte);
