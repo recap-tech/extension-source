@@ -1,6 +1,6 @@
 # Recap Browser Extension Source
 
-This repository contains the source code deployed in the Recap browser extension.
+This repository contains the source code deployed in the [Recap browser extension](https://chrome.google.com/webstore/detail/recap/oebaibegfmdokfbbeooiaoogobnaaikj).
 
 The extension acts as a simple proxy to connect to exchange APIs which would otherwise be blocked in browser because of [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing). This means that Recap doesn't operate proxy servers where we could intercept your traffic and snoop on your data. [More about Recap's security model](https://recap.io/security).
 
