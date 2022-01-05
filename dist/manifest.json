@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Recap",
   "description": "Connects the Recap web app directly to your crypto exchanges and services, protecting your financial privacy.",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "icons": {
     "16": "icon16.png",
     "32": "icon32.png",
@@ -38,7 +38,10 @@
     "https://api.luno.com/*",
     "https://futures.kraken.com/*",
     "https://api.kucoin.com/*",
-    "https://www.bitmex.com/*"
+    "https://www.bitmex.com/*",
+    "https://api.crypto.com/*",
+    "https://ftx.com/*",
+    "https://api.gemini.com/*"
   ],
   "externally_connectable": {
     "matches": [
