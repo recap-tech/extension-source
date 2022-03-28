@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Recap",
   "description": "Connects the Recap web app directly to your crypto exchanges and services, protecting your financial privacy.",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "icons": {
     "16": "icon16.png",
     "32": "icon32.png",
@@ -34,14 +34,14 @@
     "https://wallet-api.celsius.network/*",
     "https://webapi.coinfloor.co.uk/*",
     "https://www.bitstamp.net/*",
-    "https://www.cryptofacilities.com/*",
     "https://api.luno.com/*",
     "https://futures.kraken.com/*",
     "https://api.kucoin.com/*",
     "https://www.bitmex.com/*",
     "https://api.crypto.com/*",
     "https://ftx.com/*",
-    "https://api.gemini.com/*"
+    "https://api.gemini.com/*",
+    "https://ftx.us/*"
   ],
   "externally_connectable": {
     "matches": [
