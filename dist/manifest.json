@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Recap",
   "description": "Connects the Recap web app directly to your crypto exchanges and services, protecting your financial privacy.",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "icons": {
     "16": "icon16.png",
     "32": "icon32.png",
@@ -41,7 +41,8 @@
     "https://api.crypto.com/*",
     "https://ftx.com/*",
     "https://api.gemini.com/*",
-    "https://ftx.us/*"
+    "https://ftx.us/*",
+    "https://api.valr.com/*"
   ],
   "externally_connectable": {
     "matches": [
